@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Classroom {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[5];
@@ -10,7 +10,7 @@ public class Classroom {
         }
 
         for(int x : arr) {
-            System.out.print(x + " ");
+            System.out.println(x + " ");
         }
     }
 }
